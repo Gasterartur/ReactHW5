@@ -96,3 +96,43 @@
   .icon:hover {
     transform: scale(1.1);
   }
+
+  @media (max-width: 768px) {
+    .card {
+      width: 90%;
+      height: auto;
+      padding: 15px;
+    }
+  
+    .spotify-icon img {
+      width: 60px;
+      height: 20px;
+    }
+  
+    .title {
+      font-size: 36px;
+      width: 100%;
+      padding: 0 30px;
+    }
+  
+    .subtitle {
+      font-size: 18px;
+      width: 100%;
+    }
+  
+    .icons-frame {
+      flex-direction: column;
+      gap: 10px;
+      padding: 15px;
+    }
+  
+    .icon-container {
+      width: 60px;
+      height: 60px;
+    }
+  
+    .icon {
+      width: 60px;
+      height: 60px;
+    }
+  }
